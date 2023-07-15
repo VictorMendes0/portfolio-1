@@ -1,3 +1,11 @@
+p.truncate-3l { /*Add nos cards com a descrição maior*/
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 body {
     font-family: Roboto, sans-serif;
 }
@@ -11,11 +19,11 @@ body {
     color: #fff;
 }
 
-.nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover {
     color: rgb(221, 223, 247);
 }
+
 
 #cabecalho a {
     color: #fff;
@@ -40,6 +48,7 @@ button.navbar-toggler {
 
 .navbar-brand {
     font-family: pacifico, cursive;
+
 }
 
 .navbar-toggler {
@@ -54,9 +63,15 @@ button.navbar-toggler {
     color: rgb(42, 54, 165);
 }
 
+.produtos span{
+    padding-bottom: 20px;
+}
+
 #sobre {
     background-color: RGB(240, 225, 216);
 }
+
+
 
 @media (max-width: 768px) {
     .carousel-inner .carousel-item>div {
